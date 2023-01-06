@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(/images/donation13.jpg);
+    background-color: goldenrod;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headline {
+    text-align: center;
+    padding: 174px 307px;
+}
+
+.headline-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFF;
+
+}
+
+.headline-sub-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFF;
+}
+
+.primary-btn {
+    background: #FF5959;
+    height: 64px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-today-headline {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.donate-btn-select {
+
+    padding: 100px 450px;
+
+
+
+}
+
+
+.donate-today-title {
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.donate-today-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+
+.donate-btn-select ul {
+
+    display: flex;
+
+}
+
+.donate-btn-select li {
+    list-style: none;
+
+}
+
+.donate-today-btn {
+    background: #FAFAFA;
+    border-radius: 5px;
+    width: 135px;
+    height: 123px;
+    margin-right: 50px;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: #707070;
+}
+
+.donate-today-btn:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.donate-manual {
+    text-align: center;
+}
+
+.donate-text-input {
+    height: 30px;
+    width: 500px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #DADADA;
+
+}
+
+.donate-text-input[type="text"]::placeholder {
+
+    text-align: center;
+    color: #B3B3B3;
+    font-size: larger;
+}
+
+.our-donate-plan {
+    text-align: center;
+}
+
+.our-donate-plan-title {
+    margin-top: 200px;
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.our-donate-plan-sub-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.food-shelter-edu {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 50px 500px;
+}
+
+
+.food-shelter-edu-title {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.food {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    ;
+    padding: 30px;
+}
+
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.edu {
+    background: #FFF4D6;
+    ;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.blogs {
+
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 50px 500px;
+
+}
+
+.blog-one {
+
+    width: 493px;
+    height: 374px;
+    align-items: center;
+
+}
+
+
+.blog-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.blog-para {
+    margin-bottom: 20px;
+}
+
+
+
+.blog-two {
+
+    width: 493px;
+    height: 374px;
+    align-items: center;
+
+}
+
+.blogs2 {
+
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 50px 500px;
+
+}
+
+.subscribe-email {
+    text-align: center;
+    background-color: #FFF4D6;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px 500px;
+
+}
+
+.email-input-box {
+    height: 60px;
+    width: 500px;
+    border: none;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+
+}
+
+.email-input-box[type="email"]::placeholder {
+
+    text-align: left;
+    color: gray;
+    font-size: larger;
+}
+
+
+
+footer{
+    background: #000000;
+    color: #ffffff;
+    padding: 35px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.footer-title{
+    color: #ff5a5a;
+    padding: 20px;
+}
+
+.footer-description{
+    color: #c0c0c0;
+}
